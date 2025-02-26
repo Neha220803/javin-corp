@@ -75,7 +75,8 @@
         }
         
         nav ul li a:hover {
-            background-color: rgba(255,255,255,0.1);
+            background-color: rgba(255,255,255,0.1) !important;
+            color: white !important;
         }
         
         .mobile-toggle {
@@ -218,8 +219,8 @@
         }
         
         /* Why Choose Us */
-        .why-us {
-            background-color: var(--light);
+        #why-us {
+            background-color: #F8FAFF  !important;
         }
         
         .features-grid {
@@ -229,8 +230,9 @@
         }
         
         .feature-card {
-            background-color: white;
+            background-color:  #EAF1FE !important;
             padding: 30px;
+            color: #595959 ;
             border-radius: 8px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.05);
             text-align: center;

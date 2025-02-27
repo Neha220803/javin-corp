@@ -393,7 +393,9 @@
         @media (max-width: 768px) {
 
             .hero {
+                
           background-position: left !important ;
+                    background-size: cover !important;
         }
           
             
